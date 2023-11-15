@@ -14,9 +14,9 @@ fun main() {
     val ms: Movable = Square(7, 3, 5)
     mr.move(1,1)
     println("Rectangle after move(1, 1): $mr")
-    mr.move(4,2)
+    mc.move(4,2)
     println("Circle after move(4, 2): $mc")
-    mr.move(-3,1)
+    ms.move(-3,1)
     println("Square after move(-3, 1): $ms")
     println()
 
